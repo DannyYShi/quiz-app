@@ -4,3 +4,230 @@
     padding: 0;
     border-radius: 1%;
   }
+  
+  body {
+    text-transform: uppercase;
+    background-color: whitesmoke;
+    font-family: 'Abel', sans-serif;
+  }
+  
+  .header {
+    text-align: center;
+  }
+  
+  .bannerImage {
+    max-width: 20em;
+    max-height: 7em;
+  }
+  
+   .header li {
+     display: inline-block;
+     list-style: none;
+     margin: 1em;
+     font-size: 1em;
+   }
+  
+   .containerBox {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 3em;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3em;
+  }
+  
+  .startQuiz,
+  .box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    text-align: center;
+    margin: auto;
+    padding: 1em;
+    border: 0.1em black solid;
+    background-color: honeydew;
+    font-size: 1.2em;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 0.5em;
+    padding: 0.5em;
+    cursor: pointer;
+  }
+  
+  .oldPiano {
+    margin-bottom: 0.5em;
+    width: 90%;
+    max-width: 100%;
+  }
+  
+  h1, h3, legend {
+    margin-bottom: 0.5em;
+  }
+  
+  .answerOption {
+    margin-top: 1em;
+  }
+  
+   .button {
+    margin-left: auto;
+    margin-right: auto;
+    height: 2.5em;
+    width: 6em;
+    cursor: pointer;
+    text-transform: uppercase;
+    border: 0.07em black solid;
+    background-color: #07773e;
+    color: #ffffff;
+    font-family: 'Abel', sans-serif;
+    font-size: 1em;
+  }
+  
+  .button:hover,
+  .button:active {
+    background-color: #09994e;
+    border: 0.1em, black;
+  }
+  
+  h1, h3 {
+    margin-bottom: 0.9em;
+  }
+  
+  .final {
+    display: block;
+    font-size: 1.5em;
+  }
+  
+  .restartButton {
+    margin-top: 1em;
+  }
+
+  fieldset {
+    border: none;
+  }
+
+  .nextButton{
+    max-width: 80%;
+  }
+
+
+
+
+@media only screen and (min-width: 320px) {
+  .topMusicNotes {
+    width: 45%;
+  }
+
+  .oldPiano{
+    width: 90%;
+    height: auto;
+  }
+
+  .containerBox {
+    width: 90%;
+    height: 23em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+    padding-top: 0.5em;
+    padding-bottom: 0.5em;
+  }
+
+  .box {
+    width: 90%;
+    height: 90%;
+  }
+
+  .button {
+    margin-top: 0.5em;
+    font-size: 1em;
+    width: 8em;
+    height: 2.5em;
+  }
+
+  h1,
+  h3,
+  legend {
+    font-size: 1em;
+  }
+
+  .header li {
+    font-size: 1em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+    margin: 0.1em;
+  }
+}
+
+@media only screen and (min-width: 475px) {
+  .containerBox {
+    width: 29.5em;
+    height: 25em;
+    padding-top: 1em;
+    padding-bottom: 1em;
+  }
+
+  .box {
+    width: 85%;
+    height: 90%;
+  }
+
+  .button {
+    margin-top: 1em;
+    font-size: 1em;
+    width: 10em;
+    height: 2.5em;
+  }
+
+  h1,
+  h3,
+  legend {
+    font-size: 1em;
+  }
+
+  .sizeMe {
+    font-size: 0.9em;
+  }
+}
+
+@media only screen and (min-width: 800px) {  
+  .header li {
+    margin: 1em;
+    font-size: 1.3em;
+  }
+
+  .containerBox {
+    width: 35em;
+    height: 35em;
+  }
+
+  .box {
+    width: 85%;
+    height: 80%;
+  }
+
+  h1,
+  h3,
+  legend {
+    font-size: 1.3em;
+  }
+
+  .sizeMe {
+    font-size: 1em;
+  }
+
+  .button {
+    margin-top: 1em;
+    margin-bottom: 1em;
+    width: 12em;
+    font-size: 1.2em;
+  }
+}
+
+
+  
+ 
